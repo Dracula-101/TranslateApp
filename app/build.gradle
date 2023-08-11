@@ -35,7 +35,7 @@ android {
 }
 
 dependencies {
-    implementation project(':internal:chooserx')
+    implementation project('chooserx')
     implementation 'com.google.mlkit:translate:17.0.1'
 
     // Those dependencies are not required by the SDK. They are used for the sample itself.
