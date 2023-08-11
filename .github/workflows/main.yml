@@ -18,7 +18,8 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '11'  # Change this to the appropriate Java version
-
+          distribution: 'adopt'
+      
       - name: Grant Execute Permission for Gradlew
         run: chmod +x ./gradlew
 
